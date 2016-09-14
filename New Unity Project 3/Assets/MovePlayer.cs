@@ -14,6 +14,35 @@ public class MovePlayer : MonoBehaviour {
 	public float jumpSpeed =1;
 	public int jumpCount = 0;
 	public int jumpCountMax = 2;
+	//sliding vars
+	public int slideDuration= 20;
+	public int slideTime= 0.01f;
+	//corutine for the slide
+	IEnumerator Slide()
+	{
+		//just kidding, I did it.  we set a temp var to the value of slide duration
+		int durationTemp = slideDuration;
+		float speedTemp= speed;
+		speed += speed;
+		//then while loop runs while the slide duration is greater than 0
+			while(slideDuration> 0)
+		{
+			//decrement the slideduration
+			slideDuration --;
+			//yield holds the coroutine
+			//return tells the corutine to do an operation while yeilding
+			//new creates an instance of an object
+			//wait for seconds is an object
+			yield return new WaitForSeconds(slideTime);
+
+		}
+		speed = speedTemp;
+		slideDuration = durationTemp;
+
+	}
+
+
+
 
 	// Use this for initialization
 	void Start () {
@@ -27,13 +56,19 @@ public class MovePlayer : MonoBehaviour {
 		//waiting for input and comparing jumpcount
 
 
-		if (Input.GetKeyDown (KeyCode.Space)&& jumpCount <= jumpCountMax) 
+		if (Input.GetKeyDown (KeyCode.Space)&& jumpCount <= jumpCountMax-1) 
 		{
 			//incrementing the jumpcount by 1
 			jumpCount++;
 			//adding the jumpspeed var to the tempos var
 			tempPos.y = jumpSpeed;
 
+		}
+		//start sliding
+		if (Input.GetKey (KeyCode.RightArrow) && Input.GetKeyDown(KeyCode.S)) 
+		{
+			//startcorutine calls it from above, don't forget to add it in so it can call it
+			StartCoroutine(Slide());
 		}
 
 		//test if the character controller is grounded
