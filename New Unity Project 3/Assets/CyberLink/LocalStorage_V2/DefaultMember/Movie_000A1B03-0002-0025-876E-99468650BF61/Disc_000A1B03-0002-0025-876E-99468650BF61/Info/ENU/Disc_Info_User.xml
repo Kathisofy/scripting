@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Info Version="" ClientVersion="2.0" FingerPrint="000A1B03-0002-0025-876E-99468650BF61" QueryLanguage="0x0409" Action="create">
+	<Disc DiscBoxId="" DiscBoxName="" DiscSetId="" IsNewDiscSetId="false" DiscId="" VideoSignal="NTSC" VideoFormat="MPEG-2" ParentalLevel="1" RunTime="207" AspectRatio="4:3" DiscFormat="DVD" Region="1, 2, 3, 4, 5, 6" Layers="2" IA="false" Trailer="false" Commentary="false" DeletedScenes="false" GlobalRating="0.000000" ChapterNum="37" PictureURL="" DiscOrder="1" UpdateTime="2015/10/02 01:42:47">
+		<SoundMix SoundMixId="" SoundMixName="Dolby Digital" LanguageId="0x0411" LanguageName="Japanese (Japan)" LanguageExtId="" LanguageExtName="" ChannelNum="2"/>
+		<Subtitle LanguageId="0x0000" LanguageName="Japanese (Japan)" LanguageExtId="" LanguageExtName=""/>
+		<Subtitle LanguageId="0x0000" LanguageName="Japanese (Japan)" LanguageExtId="" LanguageExtName=""/>
+	</Disc>
+	<Title DiscSetId="" TitleId="0" TitleName="" UpdateTime="2015/10/02 01:42:47">
+		<Chapter ChapterId="0" ChapterName="" Duration="00:00:08"/>
+		<Chapter ChapterId="1" ChapterName="" Duration="00:01:14"/>
+		<Chapter ChapterId="2" ChapterName="" Duration="00:09:24"/>
+		<Chapter ChapterId="3" ChapterName="" Duration="00:10:51"/>
+		<Chapter ChapterId="4" ChapterName="" Duration="00:01:30"/>
+		<Chapter ChapterId="5" ChapterName="" Duration="00:01:14"/>
+		<Chapter ChapterId="6" ChapterName="" Duration="00:10:16"/>
+		<Chapter ChapterId="7" ChapterName="" Duration="00:09:59"/>
+		<Chapter ChapterId="8" ChapterName="" Duration="00:01:30"/>
+		<Chapter ChapterId="9" ChapterName="" Duration="00:01:14"/>
+		<Chapter ChapterId="10" ChapterName="" Duration="00:10:36"/>
+		<Chapter ChapterId="11" ChapterName="" Duration="00:09:39"/>
+		<Chapter ChapterId="12" ChapterName="" Duration="00:01:30"/>
+		<Chapter ChapterId="13" ChapterName="" Duration="00:01:14"/>
+		<Chapter ChapterId="14" ChapterName="" Duration="00:09:32"/>
+		<Chapter ChapterId="15" ChapterName="" Duration="00:10:43"/>
+		<Chapter ChapterId="16" ChapterName="" Duration="00:01:30"/>
+		<Chapter ChapterId="17" ChapterName="" Duration="00:01:14"/>
+		<Chapter ChapterId="18" ChapterName="" Duration="00:10:06"/>
+		<Chapter ChapterId="19" ChapterName="" Duration="00:10:09"/>
+		<Chapter ChapterId="20" ChapterName="" Duration="00:01:30"/>
+		<Chapter ChapterId="21" ChapterName="" Duration="00:01:14"/>
+		<Chapter ChapterId="22" ChapterName="" Duration="00:10:06"/>
+		<Chapter ChapterId="23" ChapterName="" Duration="00:10:09"/>
+		<Chapter ChapterId="24" ChapterName="" Duration="00:01:30"/>
+		<Chapter ChapterId="25" ChapterName="" Duration="00:01:14"/>
+		<Chapter ChapterId="26" ChapterName="" Duration="00:09:40"/>
+		<Chapter ChapterId="27" ChapterName="" Duration="00:10:35"/>
+		<Chapter ChapterId="28" ChapterName="" Duration="00:01:30"/>
+		<Chapter ChapterId="29" ChapterName="" Duration="00:01:14"/>
+		<Chapter ChapterId="30" ChapterName="" Duration="00:11:09"/>
+		<Chapter ChapterId="31" ChapterName="" Duration="00:09:06"/>
+		<Chapter ChapterId="32" ChapterName="" Duration="00:01:30"/>
+		<Chapter ChapterId="33" ChapterName="" Duration="00:01:14"/>
+		<Chapter ChapterId="34" ChapterName="" Duration="00:08:37"/>
+		<Chapter ChapterId="35" ChapterName="" Duration="00:11:03"/>
+		<Chapter ChapterId="36" ChapterName="" Duration="00:02:05"/>
+	</Title>
+</Info>

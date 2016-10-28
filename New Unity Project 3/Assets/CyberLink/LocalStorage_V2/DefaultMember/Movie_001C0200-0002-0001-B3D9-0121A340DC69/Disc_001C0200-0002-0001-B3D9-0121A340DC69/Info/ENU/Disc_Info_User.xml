@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Info Version="" ClientVersion="2.0" FingerPrint="001C0200-0002-0001-B3D9-0121A340DC69" QueryLanguage="0x0409" Action="create">
+	<Disc DiscBoxId="" DiscBoxName="" DiscSetId="" IsNewDiscSetId="false" DiscId="" VideoSignal="NTSC" VideoFormat="MPEG-2" ParentalLevel="1" RunTime="2" AspectRatio="4:3" DiscFormat="DVD" Region="1, 2, 3, 4, 5, 6" Layers="1" IA="false" Trailer="false" Commentary="false" DeletedScenes="false" GlobalRating="0.000000" ChapterNum="1" PictureURL="" DiscOrder="1" UpdateTime="2016/02/14 02:56:58">
+		<SoundMix SoundMixId="" SoundMixName="Dolby Digital" LanguageId="0x0000" LanguageName="" LanguageExtId="" LanguageExtName="" ChannelNum="2"/>
+	</Disc>
+	<Title DiscSetId="" TitleId="1" TitleName="" UpdateTime="2016/02/14 02:56:58">
+		<Chapter ChapterId="0" ChapterName="" Duration="00:02:28"/>
+	</Title>
+</Info>

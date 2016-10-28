@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Info Version="" ClientVersion="2.0" FingerPrint="00253100-0002-0009-1422-DF272B6BD926" QueryLanguage="0x0409" Action="create">
+	<Disc DiscBoxId="" DiscBoxName="" DiscSetId="" IsNewDiscSetId="false" DiscId="" VideoSignal="NTSC" VideoFormat="MPEG-2" ParentalLevel="1" RunTime="49" AspectRatio="16:9" DiscFormat="DVD" Region="1" Layers="2" IA="false" Trailer="false" Commentary="false" DeletedScenes="false" GlobalRating="0.000000" ChapterNum="9" PictureURL="" DiscOrder="1" UpdateTime="2015/04/30 19:15:35">
+		<SoundMix SoundMixId="" SoundMixName="Dolby Digital" LanguageId="0x007F" LanguageName="" LanguageExtId="" LanguageExtName="" ChannelNum="2"/>
+		<Subtitle LanguageId="0x007F" LanguageName="" LanguageExtId="" LanguageExtName=""/>
+	</Disc>
+	<Title DiscSetId="" TitleId="2" TitleName="" UpdateTime="2015/04/30 19:15:35">
+		<Chapter ChapterId="0" ChapterName="" Duration="00:04:17"/>
+		<Chapter ChapterId="1" ChapterName="" Duration="00:01:29"/>
+		<Chapter ChapterId="2" ChapterName="" Duration="00:13:57"/>
+		<Chapter ChapterId="3" ChapterName="" Duration="00:04:56"/>
+		<Chapter ChapterId="4" ChapterName="" Duration="00:11:37"/>
+		<Chapter ChapterId="5" ChapterName="" Duration="00:11:17"/>
+		<Chapter ChapterId="6" ChapterName="" Duration="00:01:29"/>
+		<Chapter ChapterId="7" ChapterName="" Duration="00:00:30"/>
+		<Chapter ChapterId="8" ChapterName="" Duration="00:00:00"/>
+	</Title>
+</Info>
