@@ -51,8 +51,10 @@
      <Compile Include="Assets\LevelSpawning\RecycleLevel.cs" />
      <Compile Include="Assets\LevelSpawning\SendToRecycler.cs" />
      <Compile Include="Assets\LevelSpawning\Statics.cs" />
+     <Compile Include="Assets\agent.cs" />
      <Compile Include="Assets\scripts\CharacterArtFlip.cs" />
      <Compile Include="Assets\scripts\MovePlayer.cs" />
+     <Compile Include="Assets\scripts\Score.cs" />
      <Compile Include="Assets\scripts\StaticVars.cs" />
      <Compile Include="Assets\scripts\SwitchStatement.cs" />
      <Compile Include="Assets\scripts\characterSlide.cs" />
@@ -77,17 +79,11 @@
      <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_00083B02-0002-000C-B119-7CC1F080F4A5\Disc_00083B02-0002-000C-B119-7CC1F080F4A5\Info\ENU\Disc_Info_User.xml" />
      <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_00263100-0002-0009-2994-B3064A07FA6C\Disc_00263100-0002-0009-2994-B3064A07FA6C\Info\ENU\Disc_Info_User.xml" />
      <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_00253100-0002-0009-1422-DF272B6BD926\Chapter\Title00\Chapter_Info.xml" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
