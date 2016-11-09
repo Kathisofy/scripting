@@ -93,7 +93,6 @@
     <Compile Include="..\pluralsightlearning\Assets\Functions.cs" />
     <Compile Include="..\pluralsightlearning\Assets\syntax.cs" />
     <Compile Include="..\pluralsightlearning\Assets\ifstatements.cs" />
-    <None Include="..\pluralsightlearning\Assets\loops.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
