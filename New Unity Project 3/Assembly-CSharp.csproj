@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-	<ProductVersion>10.0.20506</ProductVersion>
-	<SchemaVersion>2.0</SchemaVersion>
-	<RootNamespace></RootNamespace>
-	<ProjectGuid>{D0DF9011-827F-A480-F3F6-D67DF419C407}</ProjectGuid>
-	<OutputType>Library</OutputType>
-	<AppDesignerFolder>Properties</AppDesignerFolder>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
-	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-	<FileAlignment>512</FileAlignment>
-	<BaseDirectory>Assets</BaseDirectory>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D0DF9011-827F-A480-F3F6-D67DF419C407}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-	<DebugSymbols>true</DebugSymbols>
-	<DebugType>full</DebugType>
-	<Optimize>false</Optimize>
-	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_5_2_1;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
-	<ErrorReport>prompt</ErrorReport>
-	<WarningLevel>4</WarningLevel>
-	<NoWarn>0169</NoWarn>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_2_1;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-	<DebugType>pdbonly</DebugType>
-	<Optimize>true</Optimize>
-	<OutputPath>Temp\bin\Release\</OutputPath>
-	<ErrorReport>prompt</ErrorReport>
-	<WarningLevel>4</WarningLevel>
-	<NoWarn>0169</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-	<Reference Include="System" />
-    <Reference Include="System.XML" />
-	<Reference Include="System.Core" />
-	<Reference Include="System.Xml.Linq" />
-	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
-	</Reference>
-	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
-	</Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Delegates\CloneStar.cs" />
-     <Compile Include="Assets\Delegates\StarControl.cs" />
-     <Compile Include="Assets\LevelSpawning\MoveRycycleTrigger.cs" />
-     <Compile Include="Assets\LevelSpawning\RecycleLevel.cs" />
-     <Compile Include="Assets\LevelSpawning\SendToRecycler.cs" />
-     <Compile Include="Assets\LevelSpawning\Statics.cs" />
-     <Compile Include="Assets\agent.cs" />
-     <Compile Include="Assets\scripts\CharacterArtFlip.cs" />
-     <Compile Include="Assets\scripts\MovePlayer.cs" />
-     <Compile Include="Assets\scripts\Score.cs" />
-     <Compile Include="Assets\scripts\StaticVars.cs" />
-     <Compile Include="Assets\scripts\SwitchStatement.cs" />
-     <Compile Include="Assets\scripts\characterSlide.cs" />
-     <Compile Include="Assets\scripts\recycleOobjects.cs" />
-     <Compile Include="Assets\scripts\recycler.cs" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_000B2001-0002-0011-876E-99728650BF61\Info\FilmWatch_Info_User.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_00083B02-0002-000C-B119-7CC1F080F4A5\Chapter\Title00\Chapter_Info.xml" />
-     <None Include="Assets\CyberLink\PowerDVD10\JumpList\JumpList.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_00263100-0002-0009-2994-B3064A07FA6C\Chapter\Title00\Chapter_Info.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_000A1B03-0002-0025-876E-99468650BF61\Chapter\Title00\Chapter_Info.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_00331C01-0002-0018-16B6-4B0BE1EC819A\Chapter\Title00\Chapter_Info.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_000A1B03-0002-0025-876E-99468650BF61\Info\FilmWatch_Info_User.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_001C0200-0002-0001-B3D9-0121A340DC69\Info\FilmWatch_Info_User.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_00253100-0002-0009-1422-DF272B6BD926\Disc_00253100-0002-0009-1422-DF272B6BD926\Info\ENU\Disc_Info_User.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_001C0200-0002-0001-B3D9-0121A340DC69\Disc_001C0200-0002-0001-B3D9-0121A340DC69\Info\ENU\Disc_Info_User.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_000B2001-0002-0011-876E-99728650BF61\Chapter\Title00\Chapter_Info.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_001C0200-0002-0001-B3D9-0121A340DC69\Chapter\Title00\Chapter_Info.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_00331C01-0002-0018-16B6-4B0BE1EC819A\Disc_00331C01-0002-0018-16B6-4B0BE1EC819A\Info\ENU\Disc_Info_User.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_000B2001-0002-0011-876E-99728650BF61\Disc_000B2001-0002-0011-876E-99728650BF61\Info\ENU\Disc_Info_User.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_000A1B03-0002-0025-876E-99468650BF61\Disc_000A1B03-0002-0025-876E-99468650BF61\Info\ENU\Disc_Info_User.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_00083B02-0002-000C-B119-7CC1F080F4A5\Info\FilmWatch_Info_User.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_00083B02-0002-000C-B119-7CC1F080F4A5\Disc_00083B02-0002-000C-B119-7CC1F080F4A5\Info\ENU\Disc_Info_User.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_00263100-0002-0009-2994-B3064A07FA6C\Disc_00263100-0002-0009-2994-B3064A07FA6C\Info\ENU\Disc_Info_User.xml" />
-     <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_00253100-0002-0009-1422-DF272B6BD926\Chapter\Title00\Chapter_Info.xml" />
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="Mono.Cecil">
- <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
- </Reference>
+    <Compile Include="Assets\Delegates\CloneStar.cs" />
+    <Compile Include="Assets\Delegates\StarControl.cs" />
+    <Compile Include="Assets\LevelSpawning\MoveRycycleTrigger.cs" />
+    <Compile Include="Assets\LevelSpawning\RecycleLevel.cs" />
+    <Compile Include="Assets\LevelSpawning\SendToRecycler.cs" />
+    <Compile Include="Assets\LevelSpawning\Statics.cs" />
+    <Compile Include="Assets\agent.cs" />
+    <Compile Include="Assets\scripts\CharacterArtFlip.cs" />
+    <Compile Include="Assets\scripts\MovePlayer.cs" />
+    <Compile Include="Assets\scripts\Score.cs" />
+    <Compile Include="Assets\scripts\StaticVars.cs" />
+    <Compile Include="Assets\scripts\SwitchStatement.cs" />
+    <Compile Include="Assets\scripts\characterSlide.cs" />
+    <Compile Include="Assets\scripts\recycleOobjects.cs" />
+    <Compile Include="Assets\scripts\recycler.cs" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_000B2001-0002-0011-876E-99728650BF61\Info\FilmWatch_Info_User.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_00083B02-0002-000C-B119-7CC1F080F4A5\Chapter\Title00\Chapter_Info.xml" />
+    <None Include="Assets\CyberLink\PowerDVD10\JumpList\JumpList.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_00263100-0002-0009-2994-B3064A07FA6C\Chapter\Title00\Chapter_Info.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_000A1B03-0002-0025-876E-99468650BF61\Chapter\Title00\Chapter_Info.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_00331C01-0002-0018-16B6-4B0BE1EC819A\Chapter\Title00\Chapter_Info.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_000A1B03-0002-0025-876E-99468650BF61\Info\FilmWatch_Info_User.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_001C0200-0002-0001-B3D9-0121A340DC69\Info\FilmWatch_Info_User.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_00253100-0002-0009-1422-DF272B6BD926\Disc_00253100-0002-0009-1422-DF272B6BD926\Info\ENU\Disc_Info_User.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_001C0200-0002-0001-B3D9-0121A340DC69\Disc_001C0200-0002-0001-B3D9-0121A340DC69\Info\ENU\Disc_Info_User.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_000B2001-0002-0011-876E-99728650BF61\Chapter\Title00\Chapter_Info.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_001C0200-0002-0001-B3D9-0121A340DC69\Chapter\Title00\Chapter_Info.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_00331C01-0002-0018-16B6-4B0BE1EC819A\Disc_00331C01-0002-0018-16B6-4B0BE1EC819A\Info\ENU\Disc_Info_User.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_000B2001-0002-0011-876E-99728650BF61\Disc_000B2001-0002-0011-876E-99728650BF61\Info\ENU\Disc_Info_User.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_000A1B03-0002-0025-876E-99468650BF61\Disc_000A1B03-0002-0025-876E-99468650BF61\Info\ENU\Disc_Info_User.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_00083B02-0002-000C-B119-7CC1F080F4A5\Info\FilmWatch_Info_User.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_00083B02-0002-000C-B119-7CC1F080F4A5\Disc_00083B02-0002-000C-B119-7CC1F080F4A5\Info\ENU\Disc_Info_User.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\DefaultMember\Movie_00263100-0002-0009-2994-B3064A07FA6C\Disc_00263100-0002-0009-2994-B3064A07FA6C\Info\ENU\Disc_Info_User.xml" />
+    <None Include="Assets\CyberLink\LocalStorage_V2\LocalData\Disc_00253100-0002-0009-1422-DF272B6BD926\Chapter\Title00\Chapter_Info.xml" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Compile Include="..\pluralsightlearning\Assets\Functions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -100,5 +100,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>
