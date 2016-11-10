@@ -1,8 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\pluralsightlearning\Assets\variables.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\pluralsightlearning\Assets\flowers.cs">
     <Files>
-      <File FileName="..\pluralsightlearning\Assets\variables.cs" Line="12" Column="23" />
+      <File FileName="..\pluralsightlearning\Assets\variables.cs" Line="1" Column="1" />
+      <File FileName="..\pluralsightlearning\Assets\Functions.cs" Line="1" Column="1" />
+      <File FileName="..\pluralsightlearning\Assets\syntax.cs" Line="1" Column="1" />
+      <File FileName="..\pluralsightlearning\Assets\ifstatements.cs" Line="1" Column="1" />
+      <File FileName="..\pluralsightlearning\Assets\loops.cs" Line="22" Column="2" />
+      <File FileName="..\pluralsightlearning\Assets\array.cs" Line="20" Column="16" />
+      <File FileName="..\pluralsightlearning\Assets\flowers.cs" Line="15" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

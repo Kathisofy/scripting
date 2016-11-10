@@ -94,6 +94,8 @@
     <Compile Include="..\pluralsightlearning\Assets\syntax.cs" />
     <Compile Include="..\pluralsightlearning\Assets\ifstatements.cs" />
     <Compile Include="..\pluralsightlearning\Assets\loops.cs" />
+    <Compile Include="..\pluralsightlearning\Assets\array.cs" />
+    <Compile Include="..\pluralsightlearning\Assets\flowers.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
