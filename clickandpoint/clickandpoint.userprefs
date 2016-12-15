@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\clicktomove.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\ItemDatabase.cs">
     <Files>
-      <File FileName="Assets\scripts\clicktomove.cs" Line="12" Column="27" />
+      <File FileName="Assets\scripts\AllItems.cs" Line="9" Column="2" />
+      <File FileName="Assets\scripts\ItemDatabase.cs" Line="18" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
